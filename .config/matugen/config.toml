@@ -1,0 +1,19 @@
+[config.wallpaper]
+command = "dms"
+arguments = ["ipc", "call", "wallpaper"]
+set = true
+
+[templates.vicinae]
+input_path = '~/.config/matugen/templates/vicinae.toml'
+output_path = '~/.local/share/vicinae/themes/matugen.toml'
+post_hook = 'vicinae theme set matugen'
+
+[templates.vscode]
+input_path = "~/.config/matugen/templates/hyprlunavsc.json"
+output_path = "~/.vscode/extensions/hyprluna.hyprluna-theme-1.0.2/themes/hyprluna.json"
+
+[templates.dmspywalfox2]
+input_path = './matugen/templates/pywalfox-colors.json'
+output_path = '~/.cache/wal/dank-pywalfox.json'
+post_hook = 'pywalfox update'
+

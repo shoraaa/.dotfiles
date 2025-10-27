@@ -1,4 +1,5 @@
 arch: [cachy](https://cachyos.org) \
+wm: [niri](https://github.com/YaLTeR/niri) \
 shell: [dms](https://github.com/AvengeMedia/DankMaterialShell) \
 terminal: [ghostty](https://github.com/ghostty-org/ghostty) \
 theme: [matugen](https://github.com/InioX/matugen) \
